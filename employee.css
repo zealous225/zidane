@@ -1,0 +1,54 @@
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.9em;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/images/plate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    background-color: darkgrey;
+    width: 400px;
+    margin: 150px auto;
+    color: white;
+    padding: 1.9em;
+    border-radius: 1.6em;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-size: 40px;
+}
+input[type="name"],input[type="phone no."],input[type="date"],input[type="file"],input[type="country"]{
+    width: 250px;
+    height: 2.5em;
+    margin-bottom: 20px ;
+    box-sizing: border-box;
+}
+label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: black;
+  height: 2em;
+  width: 4em;
+  padding: 0 0.6em;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: white;
+    border:solid darkgrey ;
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(101, 209, 80);
+}
